@@ -1,0 +1,35 @@
+/**
+ * Media query breakpoints
+ */
+
+// breakpoints
+$small-breakpoint = (400 / 16)em;
+$medium-breakpoint = (1000 / 16)em;
+$large-breakpoint = (1100 / 16)em;
+$xl-breakpoint = (1700 / 16)em;
+
+// mediaqueries
+$small = 'only screen and (max-width: $small-breakpoint)';
+$medium = 'only screen and (min-width: $medium-breakpoint)';
+$large = 'only screen and (min-width: $large-breakpoint)';
+$xl = 'only screen and (min-width: $xl-breakpoint)';
+
+// dev environment flag
+body.dev:before {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    background: gold;
+    padding: 0.5em;
+    z-index: 9999;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+    content: 'mobile';
+    pointer-events: none;
+}
+
+@media $small { body.dev:before { content: 'small'; } }
+@media $medium { body.dev:before { content: 'medium'; } }
+@media $large { body.dev:before { content: 'large'; } }
+@media $xl { body.dev:before { content: 'xl'; } }

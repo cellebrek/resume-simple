@@ -1,0 +1,45 @@
+/**
+ * Master CSS for loading all stylesheets
+ *
+ * Uses stylus as a CSS preoprocessor
+ * @link http://learnboost.github.io/stylus/
+ *
+ * Use BEM methodology for class names
+ * > block, element, modifier
+ * @link http://bem.info/
+ *
+ * Use SMACSS for folder organization
+ * > layout, module, object and state
+ * @link https://smacss.com/
+ *
+ * Use concetric-css standard for property order
+ * > placement, visibility, layers, content, text
+ * @link http://rhodesmill.org/brandon/2011/concentric-css/
+ */
+
+/* Common fonts */
+@import 'common/fonts';
+
+/* Vendor lib */
+@import '../../node_modules/normalize.css/normalize.css';
+
+/* Common tools */
+@import 'tool/color';
+@import 'tool/media-queries';
+@import 'tool/state';
+@import 'tool/utility';
+
+/* Common style */
+@import 'common/base';
+
+/* Layout */
+@import 'layout/layout';
+@import 'layout/main';
+@import 'layout/resume';
+
+/* Module */
+@import 'module/sidebar';
+@import 'module/modal';
+
+/* Object */
+@import 'object/button';

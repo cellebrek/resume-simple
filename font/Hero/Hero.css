@@ -1,0 +1,103 @@
+/* Webfont: Hero Ultra Light*/
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-UltraLight.eot'); /* IE9 Compat Modes */
+    src: url('Hero-UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-UltraLight.woff') format('woff'), /* Modern Browsers */
+         url('Hero-UltraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-UltraLight.svg#.Hero-UltraLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Thin*/
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-Thin.eot'); /* IE9 Compat Modes */
+    src: url('Hero-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-Thin.woff') format('woff'), /* Modern Browsers */
+         url('Hero-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-Thin.svg#.Hero-Thin') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Regular */
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Hero-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Hero-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-Regular.svg#.Hero-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Regular Italic */
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-Italic.eot'); /* IE9 Compat Modes */
+    src: url('Hero-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-Italic.woff') format('woff'), /* Modern Browsers */
+         url('Hero-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-Italic.svg#.Hero-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Medium */
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-Medium.eot'); /* IE9 Compat Modes */
+    src: url('Hero-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-Medium.woff') format('woff'), /* Modern Browsers */
+         url('Hero-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-Medium.svg#.Hero-Medium') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Medium Italic */
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('Hero-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-MediumItalic.woff') format('woff'), /* Modern Browsers */
+         url('Hero-MediumItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-MediumItalic.svg#.Hero-MediumItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Bold */
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Hero-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Hero-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-Bold.svg#.Hero-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Hero Bold Italic */
+@font-face {
+    font-family: 'Hero';
+    src: url('Hero-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('Hero-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Hero-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('Hero-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Hero-BoldItalic.svg#.Hero-BoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
